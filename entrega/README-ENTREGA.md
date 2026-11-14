@@ -127,6 +127,7 @@ Converta com amount * rate_to_brl, usando a tabela data/taxas_cambio.csv.
 ```
 <br>
 E, nas linhas 93 e 94, temos:
+
 ```
 Use Decimal, nunca float, no dinheiro.
 Some os valores exatos e arredonde só na serialização, para 2 casas, com half-up.
